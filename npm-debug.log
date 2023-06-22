@@ -1,0 +1,46 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/enriquelopez/.nvm/versions/node/v6.11.2/bin/node',
+1 verbose cli   '/Users/enriquelopez/.nvm/versions/node/v6.11.2/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'prepare' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 verbose run-script [ 'prepare' ]
+5 info lifecycle git_example@1.0.0~prepare: git_example@1.0.0
+6 verbose lifecycle git_example@1.0.0~prepare: unsafe-perm in lifecycle true
+7 verbose lifecycle git_example@1.0.0~prepare: PATH: /Users/enriquelopez/.nvm/versions/node/v6.11.2/lib/node_modules/npm/bin/node-gyp-bin:/Users/enriquelopez/develop/testing/git_example/node_modules/.bin:/Users/enriquelopez/.rvm/gems/ruby-2.7.8/bin:/Users/enriquelopez/.rvm/gems/ruby-2.7.8@global/bin:/Users/enriquelopez/.rvm/rubies/ruby-2.7.8/bin:/Users/enriquelopez/.nvm/versions/node/v6.11.2/bin:/Users/enriquelopez/Library/Android/sdk/tools/bin:/Users/enriquelopez/Library/Android/sdk/tools:/Users/enriquelopez/Library/Android/sdk/platform-tools:/Users/enriquelopez/Library/Android/sdk/emulator:/Users/enriquelopez/develop/google-cloud-sdk/bin:/Users/enriquelopez/.pyenv/shims:/Users/enriquelopez/.pyenv/bin:/opt/homebrew/opt/openjdk/bin:/opt/homebrew/opt/openjdk/bin:/Users/enriquelopez/.pyenv/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/enriquelopez/.rvm/bin
+8 verbose lifecycle git_example@1.0.0~prepare: CWD: /Users/enriquelopez/develop/testing/git_example
+9 silly lifecycle git_example@1.0.0~prepare: Args: [ '-c', 'husky install' ]
+10 silly lifecycle git_example@1.0.0~prepare: Returned: code: 1  signal: null
+11 info lifecycle git_example@1.0.0~prepare: Failed to exec prepare script
+12 verbose stack Error: git_example@1.0.0 prepare: `husky install`
+12 verbose stack Exit status 1
+12 verbose stack     at EventEmitter.<anonymous> (/Users/enriquelopez/.nvm/versions/node/v6.11.2/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+12 verbose stack     at emitTwo (events.js:106:13)
+12 verbose stack     at EventEmitter.emit (events.js:191:7)
+12 verbose stack     at ChildProcess.<anonymous> (/Users/enriquelopez/.nvm/versions/node/v6.11.2/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+12 verbose stack     at emitTwo (events.js:106:13)
+12 verbose stack     at ChildProcess.emit (events.js:191:7)
+12 verbose stack     at maybeClose (internal/child_process.js:891:16)
+12 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+13 verbose pkgid git_example@1.0.0
+14 verbose cwd /Users/enriquelopez/develop/testing/git_example
+15 error Darwin 22.5.0
+16 error argv "/Users/enriquelopez/.nvm/versions/node/v6.11.2/bin/node" "/Users/enriquelopez/.nvm/versions/node/v6.11.2/bin/npm" "run" "prepare"
+17 error node v6.11.2
+18 error npm  v3.10.10
+19 error code ELIFECYCLE
+20 error git_example@1.0.0 prepare: `husky install`
+20 error Exit status 1
+21 error Failed at the git_example@1.0.0 prepare script 'husky install'.
+21 error Make sure you have the latest version of node.js and npm installed.
+21 error If you do, this is most likely a problem with the git_example package,
+21 error not with npm itself.
+21 error Tell the author that this fails on your system:
+21 error     husky install
+21 error You can get information on how to open an issue for this project with:
+21 error     npm bugs git_example
+21 error Or if that isn't available, you can get their info via:
+21 error     npm owner ls git_example
+21 error There is likely additional logging output above.
+22 verbose exit [ 1, true ]
