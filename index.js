@@ -1,1 +1,10 @@
-console.log('index.js');
+function hello() {
+  console.log("Hello World!");
+}
+
+function goodbye() {
+    console.log("Goodbye!");
+}
+
+hello();
+goodbye();
